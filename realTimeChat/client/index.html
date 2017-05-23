@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Chat con Socket.io y Node.JS</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <!-- se carga la libreria socket.io que nos permite comunicarnos con el server -->
+  <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+  <script src="main.js"></script>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <h1>Chat con Socket.io y Node.JS</h1>
+  <div id="form"></div>
+
+  <div id="chatContainer" class="container">
+    <div class="row">
+
+      <div class="col-sm-6 col-md-4 col-lg-5 ">
+        <div class="panel-group" id="accordion" role="tablist" >
+
+          <div class="panel panel-default">
+            <div class="panel-heading panel-heading-custom" role="tab" id="headingOne">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" onclick="">
+                  <i class="glyphicon glyphicon-chevron-down"></i> Chat
+                </a>
+              </h4>
+            </div>
+
+            <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+              <div class="panel-body" id="menssages">
+
+
+              </div>
+
+              <div class="panel-body" id="sendPanel">
+
+                <div id="nickBox">
+                  <form onsubmit="return registerNick(this)">
+                    <input type="nickName" id="nickName" name="nickName" placeholder="nickName">
+                    <input type="submit" value="Register">
+                  </form>
+                </div>
+
+                <div id="messageBox" style="display: none" >
+                  <form onsubmit="return addMessage(this)" id="messageBox" >
+                    <textarea name="message" id="text" placeholder="..." ></textarea>
+                    <input type="submit" value="send">
+                  </form>
+                </div>
+
+
+              </div>
+
+            </div>
+            <div class="panel-footer">
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div id="chatContainer" class="container">
+
+
+        <div class="col-sm-6 col-md-4 col-lg-5 ">
+          <div class="panel-group" id="accordion1" role="tablist" >
+
+            <div class="panel panel-default">
+              <div class="panel-heading panel-heading-custom" role="tab" id="headingOne2">
+                <h4 class="panel-title">
+                  <a role="button" data-toggle="collapse" data-parent="#accordion1" href="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2" onclick="">
+                    <i class="glyphicon glyphicon-chevron-down"></i> Users
+                  </a>
+                </h4>
+              </div>
+
+              <div id="collapseOne2" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne2">
+
+                <div class="panel-body" id="users">
+
+
+                </div>
+
+
+              </div>
+              <div class="panel-footer">
+
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>

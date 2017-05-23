@@ -1,0 +1,21 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "real time chat with node",
+  "main": "aux.js",
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sebastian Hidalgo Astorga",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.3",
+    "express-session": "^1.15.3",
+    "socket.io": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

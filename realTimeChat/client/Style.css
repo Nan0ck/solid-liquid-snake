@@ -3,155 +3,172 @@
 @import url(http://fonts.googleapis.com/css?family=Fjalla+One);
 
 .strong {
-   font-weight: bold;
+  font-weight: bold;
 }
 
 iframe { width: 300px;
-   height: 100px;
-    border: 0 }
+  height: 100px;
+  border: 0 }
 
-#pathdata { font-family: monospace;}
+  #pathdata { font-family: monospace;}
 
 
-.message {
-  margin: 20px;
+  .message {
+    margin: 20px;
     padding: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  background: Gainsboro  ;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: Gainsboro  ;
 
-  border-radius: 0px 100px 100px 100px;
-  -moz-border-radius: 0px 100px 100px 100px;
-  -webkit-border-radius: 0px 100px 100px 100px;
-  border: 0px solid #000000;
-}
+    border-radius: 0px 100px 100px 100px;
+    -moz-border-radius: 0px 100px 100px 100px;
+    -webkit-border-radius: 0px 100px 100px 100px;
+    border: 0px solid #000000;
+  }
 
-.messageUser {
-  margin: 20px;
-  padding: 15px;
-  border-radius: 5px;
-  border: 1px solid #ccc;
-  background: #FF4500;
-  color: white;
+  .messageUser {
+    margin: 20px;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #FF4500;
+    color: white;
 
-  border-radius: 100px 100px 0px 100px;
--moz-border-radius: 100px 100px 0px 100px;
--webkit-border-radius: 100px 100px 0px 100px;
-border: 0px solid #000000;
-}
+    border-radius: 100px 100px 0px 100px;
+    -moz-border-radius: 100px 100px 0px 100px;
+    -webkit-border-radius: 100px 100px 0px 100px;
+    border: 0px solid #000000;
+  }
 
-#menssages {
-  width: 95%;
-  max-width: 100%;
-  height: 350px;
-  overflow-y: scroll;
-  border: 1px solid #eee;
-  box-shadow: 0px 0px 20px #ccc ;
-}
+  #menssages {
+    width: 100%;
+    max-width: 100%;
+    height: 350px;
+    overflow-y: scroll;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc ;
+  }
 
- .customTitle {
-  	font-family: 'Fjalla One', sans-serif;
-  	line-height: 1;
+  #sendPanel {
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #eee;
+    box-shadow: 0px 0px 20px #ccc ;
+  }
+
+  #text {
+    border: 0px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #text:focus {
+    outline:0;
+  }
+
+  .customTitle {
+    font-family: 'Fjalla One', sans-serif;
+    line-height: 1;
     border-left: 5px solid  #FF4500;
-}
+  }
 
-.rental {
-font-family: 'Fjalla One', sans-serif;
-font-size: 20px;
-}
+  .rental {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 20px;
+  }
 
-.country, .cost {
-font-size: 20px;
-}
+  .country, .cost {
+    font-size: 20px;
+  }
 
-.cost{
-  color: green;
-}
+  .cost{
+    color: green;
+  }
 
-#myModalC {
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-  border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
-}
+  #myModalC {
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
 
- .custom {
-  color: #FF4500;
-}
+  .custom {
+    color: #FF4500;
+  }
 
-body{
-background-color: white;
- padding-bottom: 70px;
-}
+  body{
+    background-color: white;
+    padding-bottom: 70px;
+  }
 
-.panel-default {
-  margin-top: 10px;
-  border-style: none;
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-  border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
-}
+  .panel-default {
+    margin-top: 10px;
+    border-style: none;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
 
-.panel-default > .panel-heading-custom, .modal-header {
+  .panel-default > .panel-heading-custom, .modal-header {
 
-  background-image: none;
-  color: white;
-  background-color: #FF4500;
-  border-top-right-radius: 1em;
-  border-top-left-radius: 1em;
-}
+    background-image: none;
+    color: white;
+    background-color: #FF4500;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+  }
 
-.panel-default > .panel-footer, .modal-footer {
-  background-color: #FF4500;
-  border-bottom-right-radius: 1em;
-  border-bottom-left-radius: 1em;
-}
+  .panel-default > .panel-footer, .modal-footer {
+    background-color: #FF4500;
+    border-bottom-right-radius: 1em;
+    border-bottom-left-radius: 1em;
+  }
 
-#aboutUs {
-  background-color: grey;
-}
-#footer{
-  background-color: grey;
-}
+  #aboutUs {
+    background-color: grey;
+  }
+  #footer{
+    background-color: grey;
+  }
 
-#pDiv {
-  background: rgba(0, 0, 0, 0.3);
-  color: white;
-}
+  #pDiv {
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+  }
 
-#pDiv2 {
-  background: rgba(255, 255, 255,0.7);
-  color: white;
-}
+  #pDiv2 {
+    background: rgba(255, 255, 255,0.7);
+    color: white;
+  }
 
-#headBar{
-  color: black;
-  margin-bottom: 0px;
-}
+  #headBar{
+    color: black;
+    margin-bottom: 0px;
+  }
 
-#divider{
-  background-color: #FF4500;
-}
+  #divider{
+    background-color: #FF4500;
+  }
 
-html,
-body {
-  height: 100%;
-}
-
-
+  html,
+  body {
+    height: 100%;
+  }
 
 
-#imageDiv{
+
+
+  #imageDiv{
     padding: 25px;
     background: url("img/roadImage2.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+  }
 
-#imageDiv2{
+  #imageDiv2{
 
     padding-top: 100px;
     padding-left: 0px;
@@ -162,204 +179,204 @@ body {
     -o-background-size: cover;
     background-size: cover;
     height: 250px;
-}
+  }
 
-#bookings {
-  padding: 25px;
-  background-color: white;
-  height: 300px;
-}
-
-
-#formReserv {
-  background: rgba(0, 0, 0, 0.3);
-  color: black;
-  padding: 4px 15px 0px;
-   z-index: 1001;
-}
-
-.whiteLabel{
-  color: white;
-}
+  #bookings {
+    padding: 25px;
+    background-color: white;
+    height: 300px;
+  }
 
 
+  #formReserv {
+    background: rgba(0, 0, 0, 0.3);
+    color: black;
+    padding: 4px 15px 0px;
+    z-index: 1001;
+  }
 
-.button,.button2 {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 25px;
-  padding: 5px;
-  width: 175px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span ,.button2 span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after,.button2 span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover  span,.button2:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after,.button2:hover span:after {
-  opacity: 1;
-  right: 0;
-}
-
-.button2 {
-
-  display: block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 25px;
-  padding: 5px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 15px;
-  width: 250px;
-}
+  .whiteLabel{
+    color: white;
+  }
 
 
 
-#myFooter {
+  .button,.button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    width: 175px;
+    height: 30px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+
+  .button span ,.button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .button span:after,.button2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .button:hover  span,.button2:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after,.button2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button2 {
+
+    display: block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+    width: 250px;
+  }
+
+
+
+  #myFooter {
     background-color: #f8f8f8;
     color: black;
     padding-top: 30px;
-}
+  }
 
-#myFooter .footer-copyright {
+  #myFooter .footer-copyright {
     background-color: #f4511e;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;
-}
+  }
 
-#myFooter .row {
+  #myFooter .row {
     margin-bottom: 60px;
-}
+  }
 
-#myFooter .navbar-brand {
+  #myFooter .navbar-brand {
     margin-top: 45px;
     height: 65px;
-}
+  }
 
-#myFooter .footer-copyright p {
+  #myFooter .footer-copyright p {
     margin: 10px;
     color: white;
-}
+  }
 
-#myFooter ul {
+  #myFooter ul {
     list-style-type: none;
     padding-left: 0;
     line-height: 1.7;
-}
+  }
 
-#myFooter h5 {
+  #myFooter h5 {
     font-size: 18px;
     color: white;
     font-weight: bold;
     margin-top: 30px;
-}
+  }
 
-#myFooter h2 a{
+  #myFooter h2 a{
     font-size: 50px;
     text-align: center;
     color: #fff;
-}
+  }
 
-#myFooter a {
+  #myFooter a {
     color: black;
     text-decoration: none;
-}
+  }
 
-#myFooter a:hover,
-#myFooter a:focus {
+  #myFooter a:hover,
+  #myFooter a:focus {
     text-decoration: none;
     color:  #f4511e;
-}
+  }
 
-#myFooter .social-networks {
+  #myFooter .social-networks {
 
     padding-top: 30px;
     padding-bottom: 16px;
-}
+  }
 
-#myFooter .social-networks a {
+  #myFooter .social-networks a {
     font-size: 32px;
     padding: 10px;
     transition: 0.2s;
-}
+  }
 
-#myFooter .facebook {
+  #myFooter .facebook {
     color: #0077e2;
-}
+  }
 
-#myFooter .twitter{
+  #myFooter .twitter{
     color: #00aced;
-}
+  }
 
-#myFooter .social-networks a:hover {
+  #myFooter .social-networks a:hover {
     text-decoration: none;
-}
+  }
 
-#myFooter .facebook:hover {
+  #myFooter .facebook:hover {
     color:  #f4511e;
-}
+  }
 
-#myFooter .twitter:hover {
+  #myFooter .twitter:hover {
     color: #f4511e;
-}
+  }
 
-#emailDisplay {
-      z-index: 1005;
-}
+  #emailDisplay {
+    z-index: 1005;
+  }
 
-#login{
+  #login{
     z-index: 1005;
     min-width: 250px;
     padding: 14px 14px 0;
     overflow:hidden;
     background-color:rgba(0,0,0,.8);
-}
-#login.help-block{
+  }
+  #login.help-block{
     font-size:12px
-}
-#login.bottom{
+  }
+  #login.bottom{
     background-color:rgba(255,255,255,.8);
     border-top:1px solid #ddd;
     clear:both;
     padding:14px;
-}
-#login.social-buttons{
+  }
+  #login.social-buttons{
     margin:12px 0
-}
-#login.social-buttons a{
+  }
+  #login.social-buttons a{
     width: 49%;
-}
-#login.form-group {
+  }
+  #login.form-group {
     margin-bottom: 10px;
-}
+  }
